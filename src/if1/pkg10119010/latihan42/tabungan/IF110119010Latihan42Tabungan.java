@@ -25,12 +25,10 @@ public class IF110119010Latihan42Tabungan {
         // TODO code application logic here
         Scanner scanner = new Scanner(System.in);
         
-        Tabungan tabungan = new Tabungan();
-        
         System.out.println("====Program Penarikan Uang====");
         System.out.print("Masukkan Saldo Awal : ");
         int saldo = scanner.nextInt();
-        tabungan.Tabungan(saldo);
+        Tabungan tabungan = new Tabungan(saldo);
         System.out.print("Jumlah uang yang diambil : ");
         int jumlah = scanner.nextInt();
         

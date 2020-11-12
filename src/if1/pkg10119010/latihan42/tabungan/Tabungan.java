@@ -17,7 +17,7 @@ package if1.pkg10119010.latihan42.tabungan;
 public class Tabungan {
     private int saldo;
     
-    public void Tabungan(int saldo) {
+    public Tabungan(int saldo) {
         this.saldo = saldo;
     }
     
